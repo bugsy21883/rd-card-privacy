@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<title>Ripperda &amp; Daughter — Seller Connection Privacy Policy</title>
+<style>body{max-width:780px;margin:48px auto;padding:0 24px;background:#f6f8fc;color:#18283d;font:17px/1.6 system-ui}pre{white-space:pre-wrap;font:inherit}</style>
+<main><pre>Ripperda &amp; Daughter Cards Co. — seller connection policy
+
+This is an owner-only connection for preparing and, after separate approval,
+publishing trading-card listings. Requested permissions: manage inventory/listings
+and read seller account settings. It does not request orders, buyers, payments or
+account-setting modification permission. eBay passwords are entered only on eBay.
+
+The HTTPS return page transiently receives a short-lived authorization code and
+random state, then sends them only to the owner&#x27;s running local application at
+127.0.0.1:8898. The application checks state and exchanges the code directly with
+eBay. The page scrubs its query from browser history and uses no third-party script,
+analytics, cookies or application access logs. Render infrastructure may process
+or retain request metadata; application settings cannot guarantee platform erasure.
+
+App credentials and seller access/refresh tokens are stored only on this Windows
+user account using Windows DPAPI, never in Render receipts or browser storage.
+Local connection records contain time, outcome and a configuration fingerprint,
+not tokens, authorization codes, seller names or buyer/customer information.
+Encrypted credentials/tokens and local status records are retained until the owner
+explicitly removes them. Replacing a connection does not delete previous encrypted
+records. Disconnecting requires revocation through eBay and owner-directed local
+removal; this preparation package does not automatically delete previous history.
+
+No inventory, account-policy or customer response data is retained in this
+connection-only stage. Expansion to account-policy caching, inventory, orders or
+customer records needs a complete retention/deletion review before activation.
+The existing notification-only 30-day receipt policy remains unchanged and is not
+a promise to delete data from future systems. This is an owner-only tool; contact
+the application owner locally for support.
+
+</pre></main></html>
